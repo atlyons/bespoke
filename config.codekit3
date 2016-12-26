@@ -39,6 +39,12 @@
 		"oAP": "\/.hound.yml",
 		"oF": 0
 		},
+	"\/.nojekyll": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.nojekyll",
+		"oF": 0
+		},
 	"\/.travis.yml": {
 		"ft": 8192,
 		"oA": 2,
