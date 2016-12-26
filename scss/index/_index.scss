@@ -9,6 +9,10 @@ body {
 }
 
 
+// removed horizontal scroll for safari web browser
+body, html{
+    overflow-x: hidden;
+}
 
 .collapse-one{
 	background-color:white !important;
