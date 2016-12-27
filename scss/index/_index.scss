@@ -289,7 +289,7 @@ body, html{
 .full-width-details{
 	background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://source.unsplash.com/2500x2550/?flowers");
   background-attachment: fixed !important;
-  max-height:450px;
+  max-height:450px !important;
   margin:-35px -15px -25px -15px;
  	}
 
@@ -299,7 +299,7 @@ body, html{
       font-weight:100;
       -webkit-font-smoothing:antialiased;
       letter-spacing:.14rem;
-      line-height:2ffrem;
+      line-height:2rem;
 }
 
 
