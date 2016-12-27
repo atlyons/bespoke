@@ -20,8 +20,6 @@ body, html{
 
 
 
-
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 .marketing{
@@ -116,11 +114,9 @@ body, html{
 	background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://images.unsplash.com/photo-1474929743204-8f756140cb14?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
     background-attachment: fixed !important;
     height:300px;
-  }
- 	.full-width-cell{
- 	font-family:raleway;
- 	color:#fff;
- 	padding-top:30px;
+ 	  font-family:raleway;
+ 	  color:#fff;
+ 	  padding-top:30px;
  	}
 
 
@@ -135,7 +131,7 @@ body, html{
   font-size:16px;
   font-weight:100;
   font-family:raleway;
-  margin:20px;
+  margin:25px 0px 70px 0px;
 }
 
 
@@ -284,3 +280,26 @@ body, html{
 .carousel-testimonals-box{
   padding:4%;
 }
+
+
+
+
+
+//above the footer
+.full-width-details{
+	background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://source.unsplash.com/2500x2550/?flowers");
+  background-attachment: fixed !important;
+    height: calc(50vh + 0px);
+    margin:-35px -15px -25px -15px;
+ 	}
+
+.white-text{
+  color:#fff;
+      font-family:"Helvetica Neue", Arial, sans-serif;
+      font-weight:100;
+      -webkit-font-smoothing:antialiased;
+      letter-spacing:.14rem;
+      line-height:2ffrem;
+}
+
+
