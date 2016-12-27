@@ -11,8 +11,14 @@
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+	@media (max-width: 480px) {
+		  top: 5vh;
+		}
+	@media (max-width: 780px) {
+		top: 15vh;
+	}
+	top:30%;
   z-index: 10;
-  top: 30%;
 }
 
 /* Declare heights because of positioning of img element */

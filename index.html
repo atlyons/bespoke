@@ -31,8 +31,9 @@
 
 
 <header>
+
 <nav class="navbar navbar-fixed-top bg-faded">
-      <a class="navbar-brand pull-left" href="#">pestle.</a>
+      <a class="navbar-brand pull-left" href="#home">pestle.</a>
       <nav class="navbar-light">
       <button class="navbar-toggler hidden-lg-up float-md-right float-sm-right float-xs-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars hamburger-icon" aria-hidden="true"></i></button>
@@ -40,18 +41,18 @@
   <div class="collapse navbar-toggleable-md float-lg-right" id="navbarResponsive">
     <ul class=" nav navbar-nav float-md-center text-sm-center text-xs-center text-center">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
         <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#testimonials">Testimonials</a>
           <a class="dropdown-item" href="#">Another action</a>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
@@ -65,6 +66,9 @@
     </li>
   </div>
 </nav>
+
+<a name="home"></a>
+
 </header>
 
 
@@ -143,14 +147,14 @@
 
 
 
-
 <!-- Screen shot section -->
 <section>
+<a name="about"></a>
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="screen-shot">
-<h1 class="text-md-center text">Sleek, Flexible & Stylish.</h1>
-<h6 class="text paragraph text-md-center">Foundry is a remarkably complete template offering you a plethora of handcrafted design elements. Whether promoting a product, service or portfolio - Foundry's unique and flexible style has you covered.</h6>
+<h1 class="heading black text-md-center text-sm-center text-xs-center">Sleek, Flexible & Stylish.</h1>
+<h6 class="paragraph black text-md-center text-sm-center text-xs-center ">Foundry is a remarkably complete template offering you a plethora of handcrafted design elements. Whether promoting a product, service or portfolio - Foundry's unique and flexible style has you covered.</h6>
 </div>
 </div>
 </div>
@@ -159,14 +163,14 @@
 <section class="section-margin">
 <div class="container">
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-lg-8 col-md-12 col-sm-12">
     <img src="http://foundry.mediumra.re/img/screenshot.jpg" alt="" class=" img-responsive screenshot-img" width="100%" height"100%">
 </div>
 
-<div class="col-md-4">
-<h2 class="text screenshot-title">Build a slick, modern site faster than ever</h2>
-<h6 class="text paragraph screenshot-paragraph text-md-left">Foundry is your complete design toolkit, built from the ground up to be flexible, extensible and stylish. Building slick, contemporary sites has never been this easy!</h6>
-<button class="btn btn-outline-primary btn-block btn-no-radius" href="">EXPLORE FOUNDRY</button>
+<div class="col-lg-4 col-md-12 col-sm-12 text-lg-left text-md-center text-sm-center text-xs-center">
+<h2 class="heading black screenshot-title">Build a slick, modern site faster than ever</h2>
+<h6 class="paragraph black screenshot-paragraph text-md-left">Foundry is your complete design toolkit, built from the ground up to be flexible, extensible and stylish. Building slick, contemporary sites has never been this easy!</h6>
+<button class="btn btn-outline-primary btn-no-radius" href="">EXPLORE FOUNDRY</button>
 </div>
 </div>
 </div>
@@ -181,11 +185,13 @@
 
 <!-- GET STARTED WITH ONE OF OUR UNIQUE SITES -->
 <section>
-  <div class="container">
-    <div class="col-md-8 col-sm-12 col-xs-12"> 
-    <h1 class="text-md-left text-xs-left text screenshot-title">Get started fast with one of our unique, pre-built concepts.</h1>
+<a name="testimonials"></a>
 
-    <h4 class="text paragraph screenshot-paragraph">We've built 10 fresh and distinct concepts to showcase Foundry's adaptability for almost any purpose.</h4>
+  <div class="container">
+    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12"> 
+    <h1 class="text-md-left text-xs-left heading">Get started fast with one of our unique, pre-built concepts.</h1>
+
+    <h4 class="paragraph">We've built 10 fresh and distinct concepts to showcase Foundry's adaptability for almost any purpose.</h4>
 
     <div class="blockquote blockquote-border">
     <h5 class="text paragraph">“Stunning design, prompt support with an easy to use site builder make this and outstanding product. Well done Medium Rare!”
@@ -203,7 +209,7 @@
   </div>
   </div>
 
-    <div class="col-md-4 col-sm-12 col-xs-12 img-responsive">
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 img-responsive">
     <img src="img/iPhone7Plus.png" alt="" class="img-responsive shadowedPNG" width="100%" height"100%">
     </div>
   </div>
@@ -220,6 +226,8 @@
 
 <!-- JUMBOTRON CONNECT WITH US SECTION -->
 <section>
+  <a name="contact"></a>
+
 <div class="jumbotron jumbotron-fluid connect-with-us">
   <div class="container">
     <h1 class="display-5 text-md-center text-xs-center text">Connect with us.</h1>
@@ -281,6 +289,8 @@
 
 <!-- EMBEDED VIDEO -->
 <section>
+  <a name="video"></a>
+
     <div class="container-fluid embeded-video">
         <div class="row-fluid">
             <div class="col-md-8 col-sm-12 col-xs-12">
@@ -323,7 +333,7 @@
       <img src="..." alt="Third slide">
     </div>
   </div>
-<!--   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="icon-prev" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
@@ -395,6 +405,8 @@
 
 <!-- PRICING SECTION -->
 <section>
+<a name="prices"></a>
+
 <div class="container">
   <div class="row">
 <div class="col-md-4 col-sm-12 col-xs-12">
@@ -480,6 +492,8 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 <section>
+  <a name="testimonials"></a>
+
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -515,6 +529,7 @@
 
 
 <section>
+
 <div class="jumbotron jumbotron-fluid text-md-center text-sm-center text-xs-center">
   <div class="row">
         <h2 class="text" style="margin-bottom:30px;">As seen on:</h2>
