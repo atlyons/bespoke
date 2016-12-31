@@ -51,6 +51,14 @@
 		"oAP": "\/.travis.yml",
 		"oF": 0
 		},
+	"\/.vscode\/launch.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/launch-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
