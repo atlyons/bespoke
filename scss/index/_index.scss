@@ -362,6 +362,9 @@ body, html{
   background-attachment: fixed !important;
   height:450px;
   margin-top:-32px;
+  @media (max-width: 860px) {
+    height:520px;
+	}
   @media (max-width: 815px) {
     height:525px;
 	}
@@ -380,8 +383,11 @@ body, html{
   @media (max-width: 530px) {
     height:600px;
 	}
-  @media (max-width: 500px) {
-    height:590px;
+  @media (max-width: 510px) {
+    height:620px;
+	}
+  @media (max-width: 488px) {
+    height:620px;
 	}
   @media (max-width: 470px) {
     height:575px;
@@ -389,6 +395,16 @@ body, html{
   @media (max-width: 450px) {
     height:615px;
 	}
+}
+
+.footer-paralax-padding{
+    padding-top:55px;
+    @media (max-width: 780px) {
+    padding-top:0px;
+	}
+  	@media (max-width: 480px) {
+    padding-top:0px;
+		}
 }
 
 .extra-padding{
