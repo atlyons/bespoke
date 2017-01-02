@@ -226,7 +226,7 @@ html {
 }
 
 .carousel-testimonials-one {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.35) 70%, rgba(0, 0, 0, 0.65) 70%), url("https://source.unsplash.com/2500x400/?flowers");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.35) 70%, rgba(0, 0, 0, 0.65) 70%), url("https://source.unsplash.com/2500x400/?floral");
   opacity: 0.75;
 }
 
@@ -426,4 +426,59 @@ html {
 .shadowed-video {
   -webkit-filter: drop-shadow(6px 6px 10px #888888);
   filter: drop-shadow(6px 6px 10px #888888);
+}
+
+
+
+// .nav[aria-expanded="true"]{
+//   background-color: #42DCA3 !important;
+// }
+
+
+
+
+
+.card {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  @media (min-width: 320px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:481px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:575px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  @media (min-width:641px) {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  @media (min-width:961px) {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* big landscape tablets, laptops, and desktops */
+  @media (min-width:1025px) {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* hi-res laptops and desktops */
+  @media (min-width:1281px) {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
